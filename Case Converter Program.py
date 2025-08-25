@@ -5,8 +5,9 @@ def case_convert(camel_or_pascal_case_text):
     return snake_case_text
 
 def main():
-    camel_or_pascal_case_text = input('Enter camel or pascal caste text: ')
+    camel_or_pascal_case_text = input('Enter camel or pascal case text: ')
     snake_case_text = case_convert(camel_or_pascal_case_text)
     print(snake_case_text)
 
 main()
+
